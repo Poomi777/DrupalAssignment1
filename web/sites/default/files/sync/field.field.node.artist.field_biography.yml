@@ -1,0 +1,24 @@
+uuid: 63213052-f8f4-4b87-9849-a6e571db0282
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_biography
+    - filter.format.basic_html
+    - node.type.artist
+  module:
+    - text
+id: node.artist.field_biography
+field_name: field_biography
+entity_type: node
+bundle: artist
+label: Biography
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

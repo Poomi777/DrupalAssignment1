@@ -1,0 +1,14 @@
+uuid: 121f9101-2dac-4846-957b-3ec2aa6329a0
+langcode: en
+status: true
+dependencies: {  }
+name: banner_tall
+label: 'Banner Tall'
+effects:
+  0df4714f-fcb3-4ce2-89e6-dbff1ea263f4:
+    uuid: 0df4714f-fcb3-4ce2-89e6-dbff1ea263f4
+    id: image_resize
+    weight: 1
+    data:
+      width: 400
+      height: 1200

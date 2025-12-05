@@ -1,0 +1,26 @@
+uuid: a500c111-32cd-48db-a435-080394f2325e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.advertisement.field_ad_image
+    - field.field.node.advertisement.field_layout
+    - field.field.node.advertisement.field_website
+    - node.type.advertisement
+  module:
+    - user
+id: node.advertisement.teaser
+targetEntityType: node
+bundle: advertisement
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ad_image: true
+  field_layout: true
+  field_website: true

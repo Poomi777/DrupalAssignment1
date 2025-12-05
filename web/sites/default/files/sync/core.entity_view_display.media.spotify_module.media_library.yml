@@ -1,0 +1,32 @@
+uuid: e3c52eed-5172-40dd-b17f-13e6de0ea333
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.spotify_module.field_media_oembed_video
+    - image.style.medium
+    - media.type.spotify_module
+  module:
+    - image
+id: media.spotify_module.media_library
+targetEntityType: media
+bundle: spotify_module
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_oembed_video: true
+  name: true
+  uid: true

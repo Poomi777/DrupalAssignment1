@@ -1,0 +1,24 @@
+uuid: 15635249-454a-4dbb-8b52-125ded61728f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - filter.format.basic_html
+    - node.type.label
+  module:
+    - text
+id: node.label.field_description
+field_name: field_description
+entity_type: node
+bundle: label
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

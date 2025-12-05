@@ -1,0 +1,27 @@
+uuid: ff08070b-75ac-4469-8b1b-535f49e3aea0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.spotify_module.field_media_oembed_video
+    - media.type.spotify_module
+id: media.spotify_module.media_library
+targetEntityType: media
+bundle: spotify_module
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_oembed_video: true
+  path: true
+  status: true
+  uid: true

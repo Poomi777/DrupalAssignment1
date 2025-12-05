@@ -1,0 +1,29 @@
+uuid: b48cf425-cac0-4608-8995-0ffce8d8267d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.advertisements_banner_wide
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__advertisements_banner_tall
+theme: olivero
+region: sidebar
+weight: -7
+provider: null
+plugin: 'views_block:advertisements_banner_wide-ad_block_banner_tall'
+settings:
+  id: 'views_block:advertisements_banner_wide-ad_block_banner_tall'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n"

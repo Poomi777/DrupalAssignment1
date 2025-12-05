@@ -1,0 +1,15 @@
+uuid: 56196245-8e09-4cf6-9c93-5c92ca2661d8
+langcode: en
+status: true
+dependencies: {  }
+name: landscape_small
+label: 'Landscape Small (320 x 180)'
+effects:
+  9431bce6-c128-43ec-8ef6-f56da93d85a9:
+    uuid: 9431bce6-c128-43ec-8ef6-f56da93d85a9
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 180
+      anchor: center-top

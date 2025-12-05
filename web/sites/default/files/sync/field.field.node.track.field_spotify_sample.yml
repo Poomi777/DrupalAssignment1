@@ -1,0 +1,29 @@
+uuid: cc64d988-aa48-4d7f-ae44-4a2d1759b05f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_spotify_sample
+    - media.type.spotify_module
+    - node.type.track
+id: node.track.field_spotify_sample
+field_name: field_spotify_sample
+entity_type: node
+bundle: track
+label: 'Spotify Sample'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      spotify_module: spotify_module
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

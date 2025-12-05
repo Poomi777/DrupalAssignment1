@@ -1,0 +1,15 @@
+uuid: 07e97aff-f02a-4155-bcfe-34e3d0544213
+langcode: en
+status: true
+dependencies: {  }
+name: portrait_medium
+label: 'Portrait Medium (480 x 640)'
+effects:
+  02bd02dd-e272-40ee-9c1c-f4fe27ac23d3:
+    uuid: 02bd02dd-e272-40ee-9c1c-f4fe27ac23d3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 640
+      anchor: center-top

@@ -1,0 +1,76 @@
+uuid: a7aa7068-f83f-452d-a076-22db81ce2480
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.track.field_album
+    - field.field.node.track.field_artist
+    - field.field.node.track.field_duration
+    - field.field.node.track.field_genre
+    - field.field.node.track.field_release_date
+    - field.field.node.track.field_spotify_sample
+    - node.type.track
+  module:
+    - datetime
+    - user
+id: node.track.default
+targetEntityType: node
+bundle: track
+mode: default
+content:
+  field_album:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_artist:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_duration:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_genre:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_release_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_spotify_sample:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

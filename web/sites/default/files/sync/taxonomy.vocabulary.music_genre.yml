@@ -1,0 +1,9 @@
+uuid: b9706223-8278-461f-8713-339e6c3be7f3
+langcode: en
+status: true
+dependencies: {  }
+name: 'Music Genre'
+vid: music_genre
+description: 'Genre used t o categorize albums and tracks'
+weight: 0
+new_revision: false

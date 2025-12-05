@@ -1,0 +1,21 @@
+uuid: e8a51261-e56b-4bbd-8e84-1f3440bed870
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured
+    - node.type.album
+id: node.album.field_featured
+field_name: field_featured
+entity_type: node
+bundle: album
+label: Featured
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

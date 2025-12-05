@@ -1,0 +1,36 @@
+uuid: 83d1a6a4-3b9f-4c2b-9ceb-012c89de64c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.spotify_module.field_media_oembed_video
+    - media.type.spotify_module
+  module:
+    - media_entity_spotify
+id: media.spotify_module.default
+targetEntityType: media
+bundle: spotify_module
+mode: default
+content:
+  field_media_oembed_video:
+    type: spotify_embed
+    label: visually_hidden
+    settings:
+      playlist:
+        theme: dark
+        view: list
+        width: 300px
+        height: 380px
+      track:
+        theme: dark
+        view: list
+        width: 300px
+        height: 80px
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,14 @@
+uuid: 3fa6f50b-75c5-4694-a716-efabca66396d
+langcode: en
+status: true
+dependencies: {  }
+name: banner_wide
+label: 'Banner Wide'
+effects:
+  6ecf9cc4-c46d-4dd3-b2b3-2ca2b3fcfff4:
+    uuid: 6ecf9cc4-c46d-4dd3-b2b3-2ca2b3fcfff4
+    id: image_resize
+    weight: 2
+    data:
+      width: 1200
+      height: 400

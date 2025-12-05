@@ -1,0 +1,19 @@
+uuid: 67660daf-f66b-411c-be31-d9e7a9163325
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nationality
+    - node.type.label
+id: node.label.field_nationality
+field_name: field_nationality
+entity_type: node
+bundle: label
+label: Nationality
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

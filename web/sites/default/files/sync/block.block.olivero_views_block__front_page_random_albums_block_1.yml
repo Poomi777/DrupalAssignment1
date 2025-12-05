@@ -1,0 +1,29 @@
+uuid: d5e94da8-8ed4-412a-b28e-a5f683faf151
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.front_page_random_albums
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__front_page_random_albums_block_1
+theme: olivero
+region: content
+weight: -11
+provider: null
+plugin: 'views_block:front_page_random_albums-block_1'
+settings:
+  id: 'views_block:front_page_random_albums-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /front

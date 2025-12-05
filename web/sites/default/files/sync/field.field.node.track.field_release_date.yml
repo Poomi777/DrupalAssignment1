@@ -1,0 +1,21 @@
+uuid: 2c2056bb-e3e3-49d3-92c8-0119faa18f7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_release_date
+    - node.type.track
+  module:
+    - datetime
+id: node.track.field_release_date
+field_name: field_release_date
+entity_type: node
+bundle: track
+label: 'Release date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

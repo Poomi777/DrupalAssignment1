@@ -1,0 +1,81 @@
+uuid: 85d2472d-1a22-46a1-8838-439cc861c192
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.label.field_artist
+    - field.field.node.label.field_description
+    - field.field.node.label.field_founded_date
+    - field.field.node.label.field_logo
+    - field.field.node.label.field_nationality
+    - field.field.node.label.field_website
+    - node.type.label
+  module:
+    - datetime
+    - link
+    - text
+    - user
+id: node.label.default
+targetEntityType: node
+bundle: label
+mode: default
+content:
+  field_artist:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_founded_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_logo:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_nationality:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_website:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

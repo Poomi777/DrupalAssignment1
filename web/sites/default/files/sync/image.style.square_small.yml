@@ -1,0 +1,15 @@
+uuid: 27d0e272-b028-4785-891d-cb8c09d08939
+langcode: en
+status: true
+dependencies: {  }
+name: square_small
+label: 'Square Small (300 x 300)'
+effects:
+  be45407e-6256-4522-8d76-1b3e4bd536ad:
+    uuid: be45407e-6256-4522-8d76-1b3e4bd536ad
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center

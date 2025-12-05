@@ -1,0 +1,29 @@
+uuid: fbb59197-aa74-47ee-b722-142c1f507938
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_label
+    - node.type.album
+    - node.type.label
+id: node.album.field_label
+field_name: field_label
+entity_type: node
+bundle: album
+label: Label
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      label: label
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

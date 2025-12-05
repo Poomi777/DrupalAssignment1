@@ -1,0 +1,17 @@
+uuid: fc0da901-543c-47a1-ab45-e9314fca3a8c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Advertisement
+type: advertisement
+description: 'Stores information about site advertisements, including image, link, and active dates.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

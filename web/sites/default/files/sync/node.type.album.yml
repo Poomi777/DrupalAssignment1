@@ -1,0 +1,17 @@
+uuid: 144200d0-c749-43c6-aa28-83acaacd7a20
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Album
+type: album
+description: 'Stores information about music albums, including cover image, title, description, release date, label, and track list.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

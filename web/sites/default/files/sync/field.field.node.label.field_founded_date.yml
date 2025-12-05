@@ -1,0 +1,21 @@
+uuid: f1a35198-b052-4195-944e-073258ffc113
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_founded_date
+    - node.type.label
+  module:
+    - datetime
+id: node.label.field_founded_date
+field_name: field_founded_date
+entity_type: node
+bundle: label
+label: 'Founded date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

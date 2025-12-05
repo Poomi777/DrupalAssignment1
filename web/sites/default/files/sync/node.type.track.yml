@@ -1,0 +1,17 @@
+uuid: 45cfe2da-13a0-41db-9aa8-77815e28bfe7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Track
+type: track
+description: 'Stores information about individual music tracks, including title, artist(s), album, duration, release date, and track number.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

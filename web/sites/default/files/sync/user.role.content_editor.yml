@@ -1,0 +1,112 @@
+uuid: a5148948-d8ad-4403-9158-a386f3937bde
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.advertisement
+    - node.type.album
+    - node.type.article
+    - node.type.artist
+    - node.type.label
+    - node.type.page
+    - node.type.track
+    - taxonomy.vocabulary.music_genre
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - contextual
+    - file
+    - media
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+_core:
+  default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access site reports'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer comments'
+  - 'administer taxonomy'
+  - 'administer url aliases'
+  - 'create article content'
+  - 'create page content'
+  - 'create terms in music_genre'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete advertisement revisions'
+  - 'delete album revisions'
+  - 'delete any advertisement content'
+  - 'delete any album content'
+  - 'delete any artist content'
+  - 'delete any audio media'
+  - 'delete any document media'
+  - 'delete any image media'
+  - 'delete any label content'
+  - 'delete any media'
+  - 'delete any remote_video media'
+  - 'delete any track content'
+  - 'delete any video media'
+  - 'delete article revisions'
+  - 'delete artist revisions'
+  - 'delete label revisions'
+  - 'delete own article content'
+  - 'delete own files'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'delete term revisions in music_genre'
+  - 'delete terms in music_genre'
+  - 'delete track revisions'
+  - 'edit any advertisement content'
+  - 'edit any album content'
+  - 'edit any artist content'
+  - 'edit any audio media'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any label content'
+  - 'edit any remote_video media'
+  - 'edit any track content'
+  - 'edit any video media'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit terms in music_genre'
+  - 'edit terms in tags'
+  - 'revert advertisement revisions'
+  - 'revert album revisions'
+  - 'revert all revisions'
+  - 'revert artist revisions'
+  - 'revert label revisions'
+  - 'revert term revisions in music_genre'
+  - 'revert track revisions'
+  - 'view advertisement revisions'
+  - 'view album revisions'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view any audio media revisions'
+  - 'view any document media revisions'
+  - 'view any image media revisions'
+  - 'view any remote_video media revisions'
+  - 'view any video media revisions'
+  - 'view artist revisions'
+  - 'view label revisions'
+  - 'view own unpublished content'
+  - 'view term revisions in music_genre'
+  - 'view the administration theme'
+  - 'view track revisions'

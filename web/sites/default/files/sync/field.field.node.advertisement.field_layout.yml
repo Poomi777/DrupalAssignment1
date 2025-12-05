@@ -1,0 +1,21 @@
+uuid: 41460eb7-a4df-4b86-84bf-6474928ba88e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_layout
+    - node.type.advertisement
+  module:
+    - options
+id: node.advertisement.field_layout
+field_name: field_layout
+entity_type: node
+bundle: advertisement
+label: Layout
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

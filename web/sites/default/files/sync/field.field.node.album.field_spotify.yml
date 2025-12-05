@@ -1,0 +1,29 @@
+uuid: 40e7012a-1fd2-413d-a312-58a025c2a308
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_spotify
+    - media.type.spotify_module
+    - node.type.album
+id: node.album.field_spotify
+field_name: field_spotify
+entity_type: node
+bundle: album
+label: Spotify
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      spotify_module: spotify_module
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

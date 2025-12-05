@@ -1,0 +1,15 @@
+uuid: 37257843-49a3-44b4-9c45-f938a54529b9
+langcode: en
+status: true
+dependencies: {  }
+name: square_large
+label: 'Square Large (900 x 900)'
+effects:
+  242df217-6b83-4cd9-ba74-74d86b02106d:
+    uuid: 242df217-6b83-4cd9-ba74-74d86b02106d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 900
+      height: 900
+      anchor: center-center

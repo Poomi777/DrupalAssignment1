@@ -1,0 +1,19 @@
+uuid: 674ebf3d-927b-4ed6-ab08-94f142ec8601
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_duration
+    - node.type.track
+id: node.track.field_duration
+field_name: field_duration
+entity_type: node
+bundle: track
+label: Duration
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

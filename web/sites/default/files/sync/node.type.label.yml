@@ -1,0 +1,17 @@
+uuid: 611f51ce-638b-4ece-b1f9-333adf14de4f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Record Label'
+type: label
+description: 'Stores information about music record labels, including name, logo, website, founding date, description, and associated artists.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

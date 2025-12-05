@@ -1,0 +1,15 @@
+uuid: 6b8fb4ff-edf7-4b06-99b1-2774e30482b7
+langcode: en
+status: true
+dependencies: {  }
+name: portrait_small
+label: 'Portrait Small (240 x 320)'
+effects:
+  d6bb2f1e-40fa-4bba-a28d-b3b694d84910:
+    uuid: d6bb2f1e-40fa-4bba-a28d-b3b694d84910
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 240
+      height: 320
+      anchor: center-top

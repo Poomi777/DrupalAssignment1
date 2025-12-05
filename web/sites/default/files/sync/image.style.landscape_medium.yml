@@ -1,0 +1,15 @@
+uuid: bdf496d7-e1e5-4575-8ea4-c277a693cf87
+langcode: en
+status: true
+dependencies: {  }
+name: landscape_medium
+label: 'Landscape Medium (640 x 360)'
+effects:
+  c1d2c333-93e2-409b-bc95-53a36742d635:
+    uuid: c1d2c333-93e2-409b-bc95-53a36742d635
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 640
+      height: 360
+      anchor: center-top
